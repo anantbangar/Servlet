@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\My Work\Advanced Java Programs\SERVLET\S12Attribute"/>
+			<item value="D:\My Work\Advanced Java Programs\SERVLET\S11FilterConfig"/>
+			<item value="D:\My Work\Advanced Java Programs\SERVLET\S10ServletConfig"/>
+			<item value="D:\My Work\Advanced Java Programs\SERVLET\S09ServletContext"/>
+			<item value="D:\My Work\Advanced Java Programs\SERVLET\S08Filter"/>
+			<item value="D:\My Work\Advanced Java Programs\SERVLET\S07HttpSession"/>
+			<item value="D:\My Work\Advanced Java Programs\SERVLET\S06HiddenFormField"/>
+			<item value="D:\My Work\Advanced Java Programs\SERVLET\S05URLRewriting"/>
+			<item value="D:\My Work\Advanced Java Programs\SERVLET\S04RFormJDBC"/>
+			<item value="D:\My Work\Advanced Java Programs\SERVLET\S03Cookies"/>
+			<item value="D:\My Work\Advanced Java Programs\SERVLET\S02RForm"/>
+			<item value="D:\My Work\Advanced Java Programs\SERVLET\S01ztest2"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="619"/>
+		<item key="DIALOG_Y_ORIGIN" value="274"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+</section>

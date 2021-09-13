@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Cookies Example</title>
+</head>
+<body>
+	<h1>this is home page of this web site</h1>
+	<form name="myForm" onsubmit="return checkText()" method="post" action="servlet1">
+		<input type="text" name="name" placeholder="enter your name" id="name">
+		<button type="submit">go to servlet 1</button>
+	</form>
+
+	<a href="anant.html">anant</a>
+	
+	<script type="text/javascript">
+		function checkText()
+		{
+			var a=document.getElementById("name").value;
+			
+			if(a.length<1)
+			{
+				alert("enter name first");
+				return false;
+			}
+		}
+	</script>
+</body>
+</html>

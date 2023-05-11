@@ -28,8 +28,8 @@ public class Servlet1 extends HttpServlet
 		res.setContentType("text/html");
 		PrintWriter out=res.getWriter();
 		
-		out.println("<h1>This is servlet1 for Servlet Context example <h1>");
-		out.println("<h1>this is for fetch parameters one by one <h1>");
+		out.println("<h1>This is servlet1 for Servlet Context example </h1>");
+		out.println("<h1>this is for fetch parameters one by one </h1>");
 		
 		ServletContext sctx=getServletContext();
 		String driverName=sctx.getInitParameter("driver");

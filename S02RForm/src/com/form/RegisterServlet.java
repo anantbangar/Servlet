@@ -1,8 +1,6 @@
 package com.form;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.net.http.HttpResponse;
-
 import javax.servlet.*;
 import javax.servlet.http.*;
 

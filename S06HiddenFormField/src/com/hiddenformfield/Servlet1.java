@@ -28,7 +28,7 @@ public class Servlet1 extends HttpServlet
 		
 		String name=req.getParameter("user_name");
 		
-		out.println("<h1> hello "+name+" you are in servlet1<h1>");
+		out.println("<h1> hello "+name+" you are in servlet1</h1>");
 		
 		out.println(""
 				+"<form action='servlet2'>"

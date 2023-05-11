@@ -30,11 +30,11 @@ public class Servlet1 extends HttpServlet
 		
 		System.out.println("servlet1 is executing...");
 		
-		out.println("<h1>this is servlet 1 <h1>");
+		out.println("<h1>this is servlet 1 </h1>");
 		
 		String name=req.getParameter("user_name");
 		
-		out.println("<h2> welcome "+name+"<h2>");
+		out.println("<h2> welcome "+name+"</h2>");
 		
 	}
 

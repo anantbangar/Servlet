@@ -3,6 +3,7 @@ package com.attribute;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -31,8 +32,9 @@ public class DemoServlet1 extends HttpServlet
 		ServletContext sctx=getServletContext();
 		
 		sctx.setAttribute("company_name","HP");
-					
+									
 		out.println("<a href='DemoServlet2' target='_blank'>go to demoservlet2</a>");
+				
 		
 	}
 }

@@ -27,8 +27,8 @@ public class Servlet2 extends HttpServlet
 		res.setContentType("text/html");
 		PrintWriter out=res.getWriter();
 		
-		out.println("<h1>This is servlet1 for Servlet Config example <h1>");
-		out.println("<h1>this is for fetch parameters using enumeration <h1>");
+		out.println("<h1>This is servlet1 for Servlet Config example </h1>");
+		out.println("<h1>this is for fetch parameters using enumeration </h1>");
 		
 		ServletConfig scon=getServletConfig();
 		String str="";
@@ -37,7 +37,7 @@ public class Servlet2 extends HttpServlet
 		while(e.hasMoreElements())
 		{
 			str=e.nextElement();
-			out.println("<h3>"+scon.getInitParameter(str)+"<h3>");
+			out.println("<h3>"+scon.getInitParameter(str)+"</h3>");
 		}
 		
 	}

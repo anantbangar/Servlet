@@ -33,12 +33,12 @@
 		<servlet-class>com.servletconfig.Servlet2</servlet-class>
 		<init-param>
 			<param-name>driver</param-name>
-			<param-value>oracle.jdbc.driver.OracleDriver</param-value>
+			<param-value>com.mysql.cj.jdbc.Driver</param-value>
 		</init-param>
 
 		<init-param>
 			<param-name>url</param-name>
-			<param-value>jdbc:oracle:thin:@localhost:1521:orcl</param-value>
+			<param-value>jdbc:mysql://localhost:3306/servlet</param-value>
 		</init-param>
 	</servlet>
 

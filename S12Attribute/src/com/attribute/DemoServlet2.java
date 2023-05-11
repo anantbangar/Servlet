@@ -31,9 +31,9 @@ public class DemoServlet2 extends HttpServlet
 		ServletContext sctx=getServletContext();
 		
 		String str1=(String)sctx.getAttribute("company_name");
-		
+						
 		out.println("<h4>ServletContext company name is "+str1+"</h4>");
-					
+							
 	}
 
 }

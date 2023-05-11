@@ -27,14 +27,14 @@ public class Servlet1 extends HttpServlet
 		res.setContentType("text/html");
 		PrintWriter out=res.getWriter();
 		
-		out.println("<h1>This is servlet1 for Servlet Config example <h1>");
-		out.println("<h1>this is for fetch only one parameter <h1>");
+		out.println("<h1>This is servlet1 for Servlet Config example </h1>");
+		out.println("<h1>this is for fetch only one parameter </h1>");
 		
 		ServletConfig scon=getServletConfig();
 		String driverName=scon.getInitParameter("driver");
 		String url=scon.getInitParameter("url");
-		out.println("<h3> driver name is : "+driverName+"<h3>");
-		out.println("<h3> url pattern is : "+url+"<h3>");
+		out.println("<h3> driver name is : "+driverName+"</h3>");
+		out.println("<h3> url pattern is : "+url+"</h3>");
 		
 	}
 

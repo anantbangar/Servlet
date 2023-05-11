@@ -28,15 +28,15 @@ public class ShowDBServlet extends HttpServlet
 		res.setContentType("text/html");
 		PrintWriter out=res.getWriter();
 		
-		out.println("<h1>you are in showdb servlet<h1>");
-		out.println("<h2>database information is<h2>");
+		out.println("<h1>you are in showdb servlet</h1>");
+		out.println("<h2>database information is</h2>");
 		
 		try
 		{
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/servlet","root","system@123");
+			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/servlet","root","system123");
 			
-			out.println("<h2>connection done....<h2>");
+			out.println("<h2>connection done....</h2>");
 			
 			Statement stmt=con.createStatement();
 			ResultSet rs=stmt.executeQuery("select * from RFormJDBC");
@@ -51,9 +51,9 @@ public class ShowDBServlet extends HttpServlet
 				password=rs.getString(3);
 				email=rs.getString(4);*/
 				
-				//out.println("<h2> "+id+" "+name+" "+password+" "+email+" <h2>");
+				//out.println("<h2> "+id+" "+name+" "+password+" "+email+" </h2>");
 				
-				out.println("<h2>"+rs.getInt(1)+" "+rs.getString(2)+" "+rs.getString(3)+" "+rs.getString(4)+"<h2>");
+				out.println("<h2>"+rs.getInt(1)+" "+rs.getString(2)+" "+rs.getString(3)+" "+rs.getString(4)+"</h2>");
 			}
 			
 			con.close();
@@ -62,7 +62,7 @@ public class ShowDBServlet extends HttpServlet
 		catch(Exception e)
 		{
 			e.printStackTrace();
-			out.println("<h2>error....<h2>");
+			out.println("<h2>error....</h2>");
 		}
 	}
 

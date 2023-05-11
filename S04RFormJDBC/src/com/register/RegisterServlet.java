@@ -49,7 +49,7 @@ public class RegisterServlet extends HttpServlet
 		try
 		{
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/servlet","root","system@123");
+			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/servlet","root","system123");
 			
 			System.out.println("connection done");
 			out.println("<h2>connection done<h2>");

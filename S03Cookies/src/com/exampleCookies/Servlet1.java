@@ -28,9 +28,9 @@ public class Servlet1 extends HttpServlet
 		
 		String name=req.getParameter("name");
 		
-		out.println("<h1> hello "+name+" you are in servlet1<h1>");
+		out.println("<h1> hello "+name+" you are in servlet1</h1>");
 		
-		out.println("<a href='servlet2'> go to servlet 2 <a>");
+		out.println("<a href='servlet2'> go to servlet 2 </a>");
 		
 		Cookie cookie=new Cookie("user_name",name);
 		res.addCookie(cookie);

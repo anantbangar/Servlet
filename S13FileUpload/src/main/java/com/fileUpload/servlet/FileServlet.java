@@ -30,7 +30,7 @@ public class FileServlet extends HttpServlet
 		resp.setContentType("text/html");
 		PrintWriter out = resp.getWriter();
 		
-		MultipartRequest m=new MultipartRequest(req,"C:/Users/Anant/Desktop/New folder/");
+		MultipartRequest m=new MultipartRequest(req,"C:/Users/Anant/OneDrive/Desktop/New folder/");
 		
 		out.println("<h3>File Uploaded Successfully</h3>");
 		
